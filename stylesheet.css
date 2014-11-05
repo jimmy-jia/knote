@@ -24,13 +24,18 @@ body{
 	margin-left:auto;
 }
 #presenceDiv{
-	width:20%;
-	right:0;
+	width:15%;
+	right:5%;
 	top:12%;
+	height:50%;
 	position:absolute;
 	border:3px solid #e7e7e7;
-	height:50%;
+
 	background-color:#f2f2f2;
+	border-radius:5px;
+}
+#presenceDiv div{
+	text-align:center;
 }
 input[type=text]{
 	margin-top:5px;
@@ -51,11 +56,34 @@ input[type=text]{
 	width:50%;
 	color:white;
 }
-
-
-
-
-
+.bold{
+	font-family:'Nunito';
+	font-size:125%;
+	text-align:center;
+}
+.footer{
+	text-align:center;
+	width:50%;
+	font-family:'Nunito';
+	color:white;
+	position:absolute;
+	margin-left:-25%;
+	bottom:0px;
+	left:50%;
+}
+a{
+	color:white;
+	text-decoration:none;
+	transition:color .4s;
+}
+a:hover{
+	color:orangered;
+	text-shadow:1px 1px 1px black;
+}
+.linkme:hover{
+	color:blue;
+	text-shadow:1px 1px 1px grey;
+}
 
 body::-webkit-scrollbar {
     width: 6px;
